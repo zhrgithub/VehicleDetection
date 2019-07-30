@@ -1,21 +1,117 @@
-/**index.wxss**/
-.userinfo {
+.top{
+  width: 750rpx;
+}
+.tongzhi{
+  width: 750rpx;
+  height: 58px;
+  color:#ff7800;
+  font-size: 30rpx;
+}
+.tongzhi image{
+  width: 38rpx;
+  height: 30rpx;
+  margin-left:27rpx;
+  margin-right:33rpx;
+}
+.tongzhi-group{
+  width: 750rpx;
+  height: 192rpx;
+ 
+}
+.yuyue{
+  width:49%;
+  height: 185rpx;
+  border-right:1px solid #eee; 
+  overflow: hidden;
+  float: left;
+}
+.clearborder{
+  border:none;
+}
+.yuyue1{
+  float: left;
+}
+.tupian{
+  width: 101rpx;
+  height: 90rpx;
+  margin-left:55rpx;
+  margin-top:20rpx;
+  float:left;
+}
+.yuyue1 view{
+  margin-left: 31rpx;
+  padding-top: 20rpx;
+}
+.yuyue1 view:nth-child(1){
+  font-size: 29rpx;
+}
+.yuyue view:nth-child(2){
+  font-size: 21rpx;
+  color: #bbc0cb;
+}
+.tupian image{
+  width: 101rpx;
+  height: 90rpx;
+}
+.xuanze{
+  width: 750rpx;
+  height: 91rpx;
+  font-size: 30rpx;
+  color: #389df5;
+  border-bottom: 1px solid #eeeeee;
+}
+.xuanze text{
+  margin-left: 31rpx;
+}
+#service{
+  width:750rpx;
+  height: 360rpx;
+}
+.list{
+  width: 349rpx;
+  height: 144rpx;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  float: left;
+  }
+.list view{
+   margin-left: 21rpx;
+   padding-top: 20rpx;
+}
+.list view:nth-child(1){
+   font-size: 30rpx;
+}
+.list view:nth-child(2){
+   font-size: 20rpx;
+   color: #999999;
+}
+.list1{
+  float: left;
+}
+.icon{
+  margin-left:50rpx;
+  margin-top:20rpx;
+  float:left;
+}
+.icon image{
+	width: 85rpx;
+	height: 104rpx;
+}
+#footer{
+  width: 750rpx;
+  height: 151rpx;
+  background: #eff1f6;
+  text-align: center;
+  padding-top: 40rpx;
+}
+#footer view:nth-child(1){
+  font-size: 24rpx;
+  color: #c7c8cb;
+}
+#footer view:nth-child(2){
+  font-size: 24rpx;
+  color: #c7c8cb;
+  margin-top: 27rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
 
-.userinfo-nickname {
-  color: #aaa;
-}
 
-.usermotto {
-  margin-top: 200px;
-}
