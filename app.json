@@ -1,12 +1,40 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/myCar/myCar"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#389df5",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/myCar/myCar",
+        "iconPath": "pages/pictures/static/images/shouyeup.png",
+        "selectedIconPath": "pages/pictures/static/images/shouyeup.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myCar/myCar",
+        "iconPath": "pages/pictures/static/images/yuedu.png",
+        "selectedIconPath": "pages/pictures/static/images/yuedup.png",
+        "text": "通知"
+      },
+      {
+        "pagePath": "pages/myCar/myCar",
+        "iconPath": "pages/pictures/static/images/wode.png",
+        "selectedIconPath": "pages/pictures/static/images/wodeup.png",
+        "text": "我的"
+      }
+    ]
   }
 }

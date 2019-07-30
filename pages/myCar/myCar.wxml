@@ -1,0 +1,39 @@
+<view  class='swiper-tab'>
+  
+  <view class="swiper-tab-list  {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav" >我的车辆</view> 
+  <view class="swiper-tab-list  {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">我的预约</view>
+  <view class="swiper-tab-list  {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">我的订单</view>
+  <view class="swiper-tab-list  {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">我的卡卷</view>
+
+</view>
+
+<view  class='swiper-tab-lines'>
+  <view class=" {{currentTab==0 ? 'on-lines' : ''}}" data-current="0" bindtap="swichNav" style='hidden'></view> 
+  <view class=" {{currentTab==1 ? 'on-lines' : ''}}" data-current="1" bindtap="swichNav"></view>
+  <view class=" {{currentTab==2 ? 'on-lines' : ''}}" data-current="2" bindtap="swichNav"></view>
+  <view class=" {{currentTab==3 ? 'on-lines' : ''}}" data-current="3" bindtap="swichNav"></view>
+  
+</view>
+
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+<swiper-item> 
+    <image  class='image-myCarTest' src='../pictures/myCar/myCarText.png'       mode='widthFix'></image>
+    <view class='textNote'>还没有相关信息</view>
+    <image  class='image-addCar' src='../pictures/myCar/addCar.png'             mode='widthFix'></image>
+</swiper-item>
+
+<swiper-item >
+  <image  class='image-myCarTest'          src='../pictures/myCar/myCarText.png' mode='widthFix'></image>
+  <view class='textNote'>还没有相关预约</view>
+  </swiper-item>
+  <swiper-item >
+  <image  class='image-myCarTest'          src='../pictures/myCar/myCarText.png' mode='widthFix'></image>
+  <view class='textNoteOrder'>还没有相关订单信息</view>
+  </swiper-item>
+  <swiper-item >
+  <image  class='image-myCarTest'          src='../pictures/myCar/myCarText.png' mode='widthFix'></image>
+  <view class='textNoteOrder'>还没有相关卡卷信息</view>
+  </swiper-item>
+
+</swiper>

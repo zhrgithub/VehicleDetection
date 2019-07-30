@@ -1,0 +1,81 @@
+view{
+  display: inline-block;
+}
+page { 
+  background-color: #F7F7F7;
+}
+
+
+.swiper-tab{
+  width: 100%;
+  text-align: center;
+  line-height: 60rpx;
+  height: 73rpx;
+  display: flex;
+  padding: 0 0 rpx;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+.swiper-tab-lines{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.swiper-tab-list{
+  font-size: 12px;
+  display: inline-block;
+  width: 25%;
+  color: #BCC0C6;
+  background:0 center no-repeat;
+  background-size: 10rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  align-items: center;
+  margin-top:13px;
+  margin-bottom:10px; 
+}
+.on{
+  color: #389DF5;
+}
+
+.on-lines{
+  border-bottom: 5rpx solid #389DF5;
+  width: 30rpx; 
+ 
+}
+/* 图片设置 */
+.image-myCarTest{
+  width:45.866%;
+  margin-top: 146rpx;
+  margin-left: 102px;
+}
+
+.textNote{
+  margin-top: 10px;
+  margin-left: 134px;
+  color: #CCCCCC;
+}
+.textNoteOrder{
+  margin-top: 10px;
+  margin-left: 110px;
+  color: #CCCCCC;
+}
+.image-addCar{
+  width:46.133%;
+  margin-top: 40px;
+  margin-left: 102px;
+}
+
+
+.swiper-box{ 
+  display: block; 
+  height: 100%; 
+  width: 100%;
+  overflow: hidden;
+ }
+.swiper-box view{
+	text-align: center;
+}
