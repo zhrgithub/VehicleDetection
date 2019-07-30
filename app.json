@@ -8,8 +8,8 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#389df5",
-    "navigationBarTitleText": "首页",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "车检易",
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
