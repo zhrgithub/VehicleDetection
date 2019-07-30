@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/myCar/myCar"
+    "pages/myCar/myCar",
+    "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#389df5",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
@@ -18,7 +19,7 @@
     "color": "#666",
     "list": [
       {
-        "pagePath": "pages/myCar/myCar",
+        "pagePath": "pages/index/index",
         "iconPath": "pages/pictures/static/images/shouyeup.png",
         "selectedIconPath": "pages/pictures/static/images/shouyeup.png",
         "text": "首页"

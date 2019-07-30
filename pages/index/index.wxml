@@ -1,13 +1,59 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="top">
+  <image src="/images/banner.png" style="width:100%"></image>
+  <view class="tongzhi">
+   <image src="/images/tongzhi.png"></image>
+    10年以来累计续费帮助12618辆车年检
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="tongzhi-group">
+    <view class="yuyue">
+      <view class="yuyue1">
+        <view>预约年检</view>
+        <view>专项通道 快速过检</view>
+      </view>
+      <view class="tupian"><image src="/images/car.png"></image></view>
+    </view>
+    <view class="yuyue clearborder">
+      <view class="yuyue1">
+          <view>六年免检</view>
+        <view>足不出户 寄送到家</view>
+      </view>
+      <view class="tupian"><image src="/images/icon.png"></image></view>
+    </view>
   </view>
+  <view class="xuanze"><text>为何选择我们</text></view>
 </view>
+<view id="service">
+      <view class="list">
+        <view class="list1">
+            <view>行业领先</view>
+            <view>合作100+年检机构</view>
+        </view> 
+        <view class="icon"><image src="../../images/huiyuan.png"></image></view>
+      </view>
+       <view class="list">
+        <view class="list1">
+            <view>专业贴心</view>
+            <view>专注解决您的车检问题</view>
+        </view> 
+        <view class="icon"><image src="../../images/dianzan1.png"></image></view>
+      </view>
+      <view class="list">
+        <view class="list1">
+            <view>急速省时</view>
+            <view>免除烦恼 专项通道</view>
+        </view> 
+        <view class="icon"><image src="../../images/xiaohuojian.png"></image></view>
+      </view>
+       <view class="list">
+        <view class="list1">
+            <view>服务透明</view>
+            <view>服务透明 服务公道</view>
+        </view> 
+        <view class="icon"><image src="../../images/fuwu.png"></image></view>
+      </view>
+</view>
+<view id="footer">
+  <view>2016-2019</view>
+  <view>客服电话 021-283183129</view>  
+</view>
+
